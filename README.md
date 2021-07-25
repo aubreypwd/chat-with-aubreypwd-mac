@@ -1,6 +1,6 @@
 # {APPNAME}
 
-![](screenshot.png)
+![image](https://user-images.githubusercontent.com/1753298/126911319-6641501f-57f9-4970-a4a6-5902ae4074e7.png)
 
 An (unofficial) native MacOS App for {APPNAME}.
 
