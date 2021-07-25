@@ -9,7 +9,7 @@
     "postinstall": "npm run installsupport",
     "build": "npm run nativefier",
     "nativefier": "./node_modules/.bin/nativefier --name 'Chat with @aubreypwd' --platform 'mac' --min-width 531 --min-height 584 --width 531 --height 584 --flash --verbose --darwin-dark-mode-support --icon ./icon.png 'https://tlk.io/aubreypwd' ./build",
-    "dist": "npm run build && mkdir -p dist/ && ./node_modules/.bin/create-dmg './build/Chat with @aubreypwd-darwin-x64/Chat with @aubreypwd.app' --overwrite --dmg-title='Chat with @aubreypwd' --identity='Aubrey Portwood' ./dist/ || true && mv './dist/Chat with @aubreypwd 1.0.0.dmg' \"./dist/Chat with @aubreypwd $npm_package_version.dmg\""
+    "dist": "npm i && npm run build && mkdir -p dist/ && ./node_modules/.bin/create-dmg './build/Chat with @aubreypwd-darwin-x64/Chat with @aubreypwd.app' --overwrite --dmg-title='Chat with @aubreypwd' --identity='Aubrey Portwood' ./dist/ || true && mv \"./dist/Chat with @aubreypwd 1.0.0.dmg\" \"./dist/Chat with @aubreypwd $npm_package_version.dmg\""
   },
   "author": "Aubrey Portwood",
   "license": "GPL-3.0-or-later",
