@@ -1,8 +1,8 @@
-# {APPNAME}
+# chat-with-aubrey
 
 ![](screenshot.png)
 
-An (unofficial) native MacOS App for {APPNAME}.
+An (unofficial) native MacOS App for tlk.io/aubreypwd where you can chat with me.
 
 # Install
 
@@ -13,21 +13,21 @@ An (unofficial) native MacOS App for {APPNAME}.
 ```bash
 brew tap aubreypwd/homebrew-cask
 brew update
-brew cask install {SLUG}
+brew cask install chat-with-aubrey
 ```
 
 ### Upgrade
 
 ```
 brew update
-brew upgrade {SLUG}
+brew upgrade chat-with-aubrey
 ```
 
 ## Download
 
-Or download the `.dmg` in [releases](https://github.com/aubreypwd/{SLUG}-mac/releases/latest) and install per usual.
+Or download the `.dmg` in [releases](https://github.com/aubreypwd/chat-with-aubrey-mac/releases/latest) and install per usual.
 
-*_Note, you will have to Right-click on the {APPNAME} to open for the first time._*
+*_Note, you will have to Right-click on the tlk.io/aubreypwd to open for the first time._*
 
 ---
 
